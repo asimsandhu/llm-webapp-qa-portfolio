@@ -1,14 +1,14 @@
-# BUG-021 — Model Returns Fabricated URLs Without Uncertainty Indicator
+﻿# BUG-021 — Model Returns Fabricated URLs Without Uncertainty Indicator
 
 | Field | Value |
 |---|---|
 | **Bug ID** | BUG-021 |
-| **Severity** | 🟠 High |
+| **Severity** |  High |
 | **Priority** | P1 |
 | **Module** | Response Quality / UX |
 | **Reported By** | Asim Masood (QA Engineer) |
 | **Date Reported** | 2025-04-02 |
-| **Status** | 🔄 In Progress |
+| **Status** |  In Progress |
 
 ---
 
@@ -59,4 +59,4 @@ The URL returns a 404. The correct URL is `https://nextjs.org/docs/app`.
 
 1. Add a system-level instruction: "When providing URLs, always add: *'Please verify this link as I may produce incorrect URLs.'*"
 2. Implement a URL validation layer that checks URLs before rendering them as clickable links
-3. Consider flagging all URLs with a ⚠️ icon and tooltip warning
+3. Consider flagging all URLs with a  icon and tooltip warning

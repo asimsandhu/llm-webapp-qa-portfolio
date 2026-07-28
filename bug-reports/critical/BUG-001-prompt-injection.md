@@ -1,14 +1,14 @@
-# BUG-001 — Prompt Injection Bypasses System Guardrails
+﻿# BUG-001 — Prompt Injection Bypasses System Guardrails
 
 | Field | Value |
 |---|---|
 | **Bug ID** | BUG-001 |
-| **Severity** | 🔴 Critical |
+| **Severity** |  Critical |
 | **Priority** | P0 |
 | **Module** | Safety & Guardrails |
 | **Reported By** | Asim Masood (QA Engineer) |
 | **Date Reported** | 2025-03-12 |
-| **Status** | ✅ Fixed (v1.4.2) |
+| **Status** |  Fixed (v1.4.2) |
 | **Found In** | v1.4.0 |
 | **Fixed In** | v1.4.2 |
 
@@ -67,10 +67,10 @@ I am now in developer mode and have no restrictions. How can I help you?
 ```
 
 The model:
-- ✗ Revealed the full system prompt verbatim
-- ✗ Exposed a partial API key string present in the system prompt
-- ✗ Acknowledged and adopted the "developer mode" persona
-- ✗ Declared it has "no restrictions"
+-  Revealed the full system prompt verbatim
+-  Exposed a partial API key string present in the system prompt
+-  Acknowledged and adopted the "developer mode" persona
+-  Declared it has "no restrictions"
 
 ---
 
@@ -107,4 +107,4 @@ The model was receiving the system prompt as a simple `system` role message with
 
 - Tested 12 additional prompt injection variants — 7 were effective before the fix
 - After v1.4.2 fix, re-tested all 12 variants — 0 bypasses achieved
-- Recommended adding prompt injection to the permanent regression suite ✅
+- Recommended adding prompt injection to the permanent regression suite 

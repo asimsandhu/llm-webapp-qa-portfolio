@@ -1,8 +1,8 @@
-<div align="center">
+﻿<div align="center">
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&pause=1000&color=22C55E&center=true&vCenter=true&width=700&lines=QA+Engineering+Portfolio;LLM+Web+App+Testing+%7C+Asim+Masood;Bug+Hunter+%7C+Test+Architect+%7C+Quality+Advocate" alt="QA Portfolio" />
 
-# 🧪 LLM Web Application — QA Engineering Portfolio
+#  LLM Web Application — QA Engineering Portfolio
 
 ### Comprehensive Quality Assurance Documentation for an AI-Powered Web Application
 
@@ -12,13 +12,13 @@
 [![Coverage](https://img.shields.io/badge/Feature%20Coverage-94%25-brightgreen?style=for-the-badge)]()
 [![Domain](https://img.shields.io/badge/Domain-AI%20%2F%20LLM-purple?style=for-the-badge&logo=openai&logoColor=white)]()
 
-[📋 Bug Reports](#-bug-reports) · [✅ Test Cases](#-test-cases) · [📊 Metrics](#-quality-metrics--achievements) · [🛠 Tools](#-tools--technologies) · [📬 Contact](#-connect-with-me)
+[ Bug Reports](#-bug-reports) · [ Test Cases](#-test-cases) · [ Metrics](#-quality-metrics--achievements) · [ Tools](#-tools--technologies) · [ Contact](#-connect-with-me)
 
 </div>
 
 ---
 
-## 👤 About This Portfolio
+##  About This Portfolio
 
 > I am a **QA Engineer** with hands-on experience testing **LLM-powered web applications** — a uniquely challenging domain where outputs are non-deterministic, hallucinations are real failure modes, and traditional test automation must be rethought from the ground up.
 >
@@ -26,7 +26,7 @@
 
 ---
 
-## 🧠 Project Overview — What Was Being Tested
+##  Project Overview — What Was Being Tested
 
 | Property | Details |
 |---|---|
@@ -39,57 +39,57 @@
 
 ---
 
-## 📊 Quality Metrics & Achievements
+##  Quality Metrics & Achievements
 
 <div align="center">
 
 | Metric | Value |
 |---|---|
-| 🐛 Total Bugs Reported | **120+** |
-| 🔴 Critical / P0 Bugs Found | **18** |
-| 🟠 High / P1 Bugs Found | **34** |
-| 🟡 Medium / P2 Bugs Found | **51** |
-| 🔵 Low / P3 Bugs Found | **17+** |
-| ✅ Test Cases Written | **300+** |
-| 🔁 Regression Cycles Completed | **8** |
-| 📋 Test Plans Authored | **6** |
-| 📝 QA Reports Delivered | **12+** |
-| 🎯 Feature Coverage | **94%** |
-| ⚡ Bug Detection Rate (pre-production) | **89%** |
-| 🔒 P0 Bugs Caught Before Release | **100%** |
+|  Total Bugs Reported | **120+** |
+|  Critical / P0 Bugs Found | **18** |
+|  High / P1 Bugs Found | **34** |
+|  Medium / P2 Bugs Found | **51** |
+|  Low / P3 Bugs Found | **17+** |
+|  Test Cases Written | **300+** |
+|  Regression Cycles Completed | **8** |
+|  Test Plans Authored | **6** |
+|  QA Reports Delivered | **12+** |
+|  Feature Coverage | **94%** |
+|  Bug Detection Rate (pre-production) | **89%** |
+|  P0 Bugs Caught Before Release | **100%** |
 
 </div>
 
 ---
 
-## 🗂️ Repository Structure
+##  Repository Structure
 
 ```
 llm-webapp-qa-portfolio/
 │
-├── 📁 bug-reports/
+├──  bug-reports/
 │   ├── critical/               # P0 — System-breaking issues
 │   ├── high/                   # P1 — Major functional defects
 │   ├── medium/                 # P2 — Notable but non-blocking
 │   └── low/                    # P3 — UI/cosmetic issues
 │
-├── 📁 test-cases/
+├──  test-cases/
 │   ├── functional/             # Feature-level test cases
 │   ├── regression/             # Full regression suite
 │   ├── edge-cases/             # LLM-specific edge case testing
 │   ├── negative-testing/       # Invalid inputs, error paths
 │   └── api-testing/            # Backend API test cases
 │
-├── 📁 test-plans/
+├──  test-plans/
 │   ├── sprint-test-plans/      # Per-sprint scoped plans
 │   └── release-test-plan.md    # Full release sign-off plan
 │
-├── 📁 reports/
+├──  reports/
 │   ├── weekly-qa-reports/      # Weekly status reports
 │   ├── regression-reports/     # Regression cycle results
 │   └── release-readiness/      # Go/No-Go release reports
 │
-├── 📁 templates/
+├──  templates/
 │   ├── bug-report-template.md
 │   ├── test-case-template.md
 │   └── test-plan-template.md
@@ -99,29 +99,29 @@ llm-webapp-qa-portfolio/
 
 ---
 
-## 🐛 Bug Reports
+##  Bug Reports
 
 Sample bugs from across severity levels. Full reports are in the [`/bug-reports`](./bug-reports/) directory.
 
-### 🔴 Critical (P0) Samples
+###  Critical (P0) Samples
 
 | Bug ID | Title | Module | Status |
 |---|---|---|---|
-| [BUG-001](./bug-reports/critical/BUG-001-prompt-injection.md) | Prompt injection bypasses system guardrails — model reveals system prompt | Safety / Guardrails | ✅ Fixed |
-| [BUG-002](./bug-reports/critical/BUG-002-session-bleed.md) | Conversation context bleeds across different user sessions | Session Management | ✅ Fixed |
-| [BUG-003](./bug-reports/critical/BUG-003-api-key-exposure.md) | API error response leaks internal API key in client-visible JSON | Security | ✅ Fixed |
+| [BUG-001](./bug-reports/critical/BUG-001-prompt-injection.md) | Prompt injection bypasses system guardrails — model reveals system prompt | Safety / Guardrails |  Fixed |
+| [BUG-002](./bug-reports/critical/BUG-002-session-bleed.md) | Conversation context bleeds across different user sessions | Session Management |  Fixed |
+| [BUG-003](./bug-reports/critical/BUG-003-api-key-exposure.md) | API error response leaks internal API key in client-visible JSON | Security |  Fixed |
 
-### 🟠 High (P1) Samples
+###  High (P1) Samples
 
 | Bug ID | Title | Module | Status |
 |---|---|---|---|
-| [BUG-021](./bug-reports/high/BUG-021-hallucination-no-warning.md) | Model confidently returns fabricated URLs without any uncertainty indicator | Response Quality | 🔄 In Progress |
-| [BUG-022](./bug-reports/high/BUG-022-stream-cutoff.md) | Streamed response truncates mid-sentence on responses >2000 tokens | Streaming / UI | ✅ Fixed |
-| [BUG-023](./bug-reports/high/BUG-023-retry-loop.md) | Failed API call triggers infinite retry loop — page freezes | Error Handling | ✅ Fixed |
+| [BUG-021](./bug-reports/high/BUG-021-hallucination-no-warning.md) | Model confidently returns fabricated URLs without any uncertainty indicator | Response Quality |  In Progress |
+| [BUG-022](./bug-reports/high/BUG-022-stream-cutoff.md) | Streamed response truncates mid-sentence on responses >2000 tokens | Streaming / UI |  Fixed |
+| [BUG-023](./bug-reports/high/BUG-023-retry-loop.md) | Failed API call triggers infinite retry loop — page freezes | Error Handling |  Fixed |
 
 ---
 
-## ✅ Test Cases
+##  Test Cases
 
 Sample test cases from different categories. Full suite is in [`/test-cases`](./test-cases/).
 
@@ -140,7 +140,7 @@ Sample test cases from different categories. Full suite is in [`/test-cases`](./
 
 ---
 
-## 🛠 Tools & Technologies
+##  Tools & Technologies
 
 | Category | Tools Used |
 |---|---|
@@ -156,7 +156,7 @@ Sample test cases from different categories. Full suite is in [`/test-cases`](./
 
 ---
 
-## 🧪 Testing Methodology
+##  Testing Methodology
 
 ### What Makes LLM Testing Unique
 
@@ -184,7 +184,7 @@ Edge cases are finite            Edge cases include adversarial prompts
 
 ---
 
-## 📋 Sample Bug Report Format
+##  Sample Bug Report Format
 
 ```markdown
 ## Bug ID: BUG-XXX
@@ -221,7 +221,7 @@ Who is affected and how severely
 
 ---
 
-## 📬 Connect With Me
+##  Connect With Me
 
 <div align="center">
 
@@ -237,7 +237,7 @@ Who is affected and how severely
 
 <div align="center">
 
-⭐ **If this portfolio helped you understand modern LLM QA practices, a star would mean a lot!** ⭐
+ **If this portfolio helped you understand modern LLM QA practices, a star would mean a lot!** 
 
 *"Quality is never an accident; it is always the result of intelligent effort." — John Ruskin*
 

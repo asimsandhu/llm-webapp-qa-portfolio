@@ -1,14 +1,14 @@
-# BUG-002 — Conversation Context Bleeds Across User Sessions
+﻿# BUG-002 — Conversation Context Bleeds Across User Sessions
 
 | Field | Value |
 |---|---|
 | **Bug ID** | BUG-002 |
-| **Severity** | 🔴 Critical |
+| **Severity** |  Critical |
 | **Priority** | P0 |
 | **Module** | Session Management |
 | **Reported By** | Asim Masood (QA Engineer) |
 | **Date Reported** | 2025-03-18 |
-| **Status** | ✅ Fixed (v1.4.3) |
+| **Status** |  Fixed (v1.4.3) |
 
 ---
 

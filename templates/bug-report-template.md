@@ -1,11 +1,11 @@
-# Bug Report Template
+﻿# Bug Report Template
 
 ## [BUG-XXX] — [Short, clear title describing the problem]
 
 | Field | Value |
 |---|---|
 | **Bug ID** | BUG-XXX |
-| **Severity** | 🔴 Critical / 🟠 High / 🟡 Medium / 🔵 Low |
+| **Severity** |  Critical /  High /  Medium /  Low |
 | **Priority** | P0 / P1 / P2 / P3 |
 | **Module** | [Feature area] |
 | **Reported By** | [Your Name] |
